@@ -13,7 +13,7 @@ The goal is to organize the collected information into a useful dataset, make th
 - `data/geodata/` — province and district reference tables.
 - `steps.md` — project workflow and remaining tasks.
 
-The source contact and website lists in `data/Gaupalika_Municipality_url_list/` are included. Staff workbooks and combined results are kept locally and excluded from the public repository because they contain identifiable staff information. They are not included as downloads in this initial code-only publication.
+The source contact and website lists in `data/Gaupalika_Municipality_url_list/` are included. Staff workbooks and combined results are kept locally and excluded from the public repository because they contain identifiable staff information. They are not included as downloads in this initial release.
 
 ## Running the notebooks
 
@@ -25,7 +25,7 @@ The combined workbook is written locally to `data/Officials_combined/Combined_st
 
 The collected pages and tables may change, and the resulting dataset can be incomplete, inconsistent, or out of date. The workbook is an aggregation of source-site information, not an official government publication. Check each record against its `source_url` when accuracy matters.
 
-Before publishing a workbook or its notebook outputs, review the fields and source-site terms and ensure the public release is appropriate. A GitHub Pages download is planned after that review; no workbook is currently published there.
+Before publishing staff-level or combined workbooks or their notebook outputs, review the fields and source-site terms and ensure the public release is appropriate. A GitHub Pages download is planned after that review; no staff-level or combined workbook is currently published there.
 
 ## Sources
 
