@@ -13,7 +13,7 @@ The goal is to organize the collected information into a useful dataset, make th
 - `data/geodata/` — province and district reference tables.
 - `steps.md` — project workflow and remaining tasks.
 
-Staff workbooks and contact lists are kept locally and excluded from the public repository because they contain identifiable contact information. They are not included as downloads in this initial code-only publication.
+The source contact and website lists in `data/Gaupalika_Municipality_url_list/` are included. Staff workbooks and combined results are kept locally and excluded from the public repository because they contain identifiable staff information. They are not included as downloads in this initial code-only publication.
 
 ## Running the notebooks
 

@@ -1,5 +1,7 @@
 # Local workbooks contain identifiable staff contact information.
 *.xlsx
+!/data/Gaupalika_Municipality_url_list/
+!/data/Gaupalika_Municipality_url_list/*.xlsx
 
 # Local notebook state and scraper logs.
 .ipynb_checkpoints/
