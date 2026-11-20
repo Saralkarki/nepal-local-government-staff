@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Download a combined dataset of publicly listed staff from Nepal's municipalities and rural municipalities.">
+    <title>Nepal Government Officials Data</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: #172033;
+        background: #f3f6fb;
+      }
+
+      body {
+        margin: 0;
+        line-height: 1.6;
+      }
+
+      main {
+        box-sizing: border-box;
+        max-width: 760px;
+        margin: 8vh auto;
+        padding: 2rem;
+        background: #fff;
+        border: 1px solid #dce3ee;
+        border-radius: 1rem;
+        box-shadow: 0 1rem 2.5rem rgb(23 32 51 / 8%);
+      }
+
+      h1 {
+        margin-top: 0;
+        line-height: 1.2;
+      }
+
+      .download {
+        display: inline-block;
+        margin: 1rem 0;
+        padding: 0.8rem 1.1rem;
+        border-radius: 0.5rem;
+        color: #fff;
+        background: #155eef;
+        font-weight: 650;
+        text-decoration: none;
+      }
+
+      .download:hover,
+      .download:focus-visible {
+        background: #124dcc;
+      }
+
+      .note {
+        padding: 1rem;
+        border-left: 4px solid #f0ad2e;
+        background: #fff8e8;
+      }
+
+      @media (max-width: 600px) {
+        main {
+          margin: 1rem;
+          padding: 1.25rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Nepal Government Officials Data</h1>
+      <p>
+        This project began with a search for agricultural officials across
+        Nepal and the question of who worked where. I compiled URL lists for
+        municipalities and rural municipalities, then scraped public staff
+        pages linked from those lists to make the available information easier
+        to find in one place.
+      </p>
+      <p>
+        <a class="download" href="combined_staff_final.xlsx" download>
+          Download the combined staff data (.xlsx)
+        </a>
+      </p>
+      <p class="note">
+        This is a point-in-time compilation of information from public source
+        pages, not an official government publication. Records may change;
+        check the <code>source_url</code> in the workbook for the original
+        listing.
+      </p>
+      <h2>How the data was collected</h2>
+      <p>
+        Staff information was collected from the municipality and rural
+        municipality website URLs in the project's source lists. These include
+        staff pages on individual local-government websites, such as
+        <a href="https://belaurimun.gov.np/our-team/">Belauri Municipality's Our Team page</a>.
+      </p>
+      <h2>Sources</h2>
+      <ul>
+        <li><a href="https://muannepal.org.np/municipality-profiles/">Municipality Association of Nepal (MUAN)</a></li>
+        <li><a href="https://mofaga.gov.np/local-contacts">Ministry of Federal Affairs and General Administration (MoFAGA)</a></li>
+        <li>Individual municipality and rural municipality websites listed in the workbook.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/Saralkarki/nepal-local-government-staff">
+          View the project source and workflow on GitHub
+        </a>
+      </p>
+    </main>
+  </body>
+</html>

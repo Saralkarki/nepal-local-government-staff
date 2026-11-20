@@ -28,7 +28,7 @@ extract_table_from_url_muni.ipynb
 
 7. Add Province Code and District Code to support GIS shapefile mapping.
 
-8. Publish the reviewed combined workbook on GitHub Pages for download.
+8. Publish the combined workbook on GitHub Pages for download. (Completed.)
 
 9. Add filters to the GitHub Pages site.
 
