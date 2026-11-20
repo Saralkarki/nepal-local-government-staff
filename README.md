@@ -33,7 +33,7 @@ The downloadable workbook is a point-in-time aggregation of information listed o
 
 - [Municipality Association of Nepal (MUAN) municipality profiles](https://muannepal.org.np/municipality-profiles/)
 - [Ministry of Federal Affairs and General Administration (MoFAGA) local contacts](https://mofaga.gov.np/local-contacts)
-- Individual municipality and rural municipality websites listed in the contact workbooks, such as [Belauri Municipality's Our Team page](https://belaurimun.gov.np/our-team/).
+- Individual municipality and rural municipality websites listed in the [rural-municipality (Gaupalika) URL workbook](data/Gaupalika_Municipality_url_list/updated_gaupalika_contacts.xlsx) and the [municipality URL workbook](data/Gaupalika_Municipality_url_list/updated_Muan_contacts.xlsx), such as [Belauri Municipality's Our Team page](https://belaurimun.gov.np/our-team/).
 
 ## Project status
 
